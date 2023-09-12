@@ -1,0 +1,150 @@
+/* Base */
+/* ----------------------------------------------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #fdfdfd;
+}
+
+h1 {
+  border-left: solid 10px #001854;
+  border-bottom: solid 1px #cfefff;
+  padding-left: 5px;
+  margin-top: 25px;
+  margin-bottom: 5px;
+  font-size: large;
+  font-weight: bold;
+}
+
+h2 {
+  margin-top: 25px;
+  margin-bottom: 5px;
+  font-size: large;
+  font-weight: bold;
+}
+
+h3 {
+  display: inline-block;
+}
+
+a         { color: #2a7ae2; text-decoration: none; }
+a:hover   { color: #000; text-decoration: underline; }
+a:visited { color: #205caa; }
+
+
+ul, ol {
+  margin-left: 2em;
+}
+
+dl {
+  margin-left: 1em;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 1em;
+}
+/* Utility */
+
+.wrap:before,
+.wrap:after { content:""; display:table; }
+.wrap:after { clear: both; }
+.wrap {
+  max-width: 700px;
+  padding: 0 30px;
+  margin: 0 auto;
+  zoom: 1;
+}
+
+
+/* Layout Styles */
+/* ----------------------------------------------------------*/
+
+/* Site header */
+
+.header {
+  padding: 0 30px;
+  border-top: 5px solid #333;
+  border-bottom: 1px solid #e8e8e8;
+  min-height: 56px;
+  background-color: white;
+}
+
+.title {
+  display: block;
+  color: #333;
+  font-size: 20px;
+  letter-spacing: -1px;
+  float: left;
+  line-height: 56px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Page Content styles */
+/* ----------------------------------------------------------*/
+
+.content {
+  padding: 30px;
+  background-color: #fff;
+}
+
+/* Home styles */
+/* ----------------------------------------------------------*/
+
+.picture {
+  display: inline-block;
+  vertical-align:middle;
+  margin: 5px;
+}
+
+.status {
+  display: inline-block;
+  vertical-align:middle;
+}
+
+.name {
+  font-size: xx-large;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 700px){
+  .home .picture {
+    display: block;
+    float: none;
+  }
+}
+
+.slogan {
+  margin: 18px 0;
+  font-style: italic;
+}
+
+.profile h1 {
+  font-size: medium;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+.recent {
+  color: #aaa;
+}
+
+.recent a {
+    color: #6AF;
+}
+
+.recent a:visited {
+    color: #6AF;
+}
