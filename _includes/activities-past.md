@@ -1,3 +1,8 @@
+* OC (Chair), [International workshop on BioNLP Shared Tasks (BioNLP-OST)](http://2019.bionlp-ost.org/), 2019.
+* PC, [2019 Conference on Empirical Methods in Natural Language Processing and 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)](http://emnlp2017.net/), 2019.
+* PC, [The 57th annual meeting of the Association for Computational Linguistics (ACL)](http://acl2019.org/), 2019.
+* SC (Senior member), [The 17th World Congress of Medical and Health Informatics (MedInfo)](https://www.medinfo-lyon.org/), 2019.
+* PC (Chair), [The 5th Biomedical Linked Annotation Hackathon (BLAH)](http://blah5.linkedannotation.org/), 2019.
 * PC, [The 27th International Conference on Computational Linguistics (COLING)](https://coling2018.org/), 2018.
 * PC, [The 56th annual meeting of the Association for Computational Linguistics (ACL)](http://acl2018.org/), 2018.
 * PC, [The 16th Annual Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (NAACL-HLT)](http://naacl2018.org/), 2018.

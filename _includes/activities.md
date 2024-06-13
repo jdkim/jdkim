@@ -2,6 +2,4 @@
 
   ___PC = Program Committee, SC = Scientific Committee, EC = Ethics Committee, OC = Organizing Committee___
 
-* EC (Chair), [Joint International Conference on Computational Linguistics (COLING), Language Resources and Evaluation (LREC)](https://lrec-coling-2024.org/), 2024.
-
-* PC (Chair), [The 8th Biomedical Linked Annotation Hackathon (BLAH)](https://blah8.linkedannotation.org/), 2024.
+* OC, [Opportunities and Pitfalls with Large Language Models for Biomedical Annotation (LLM-BA)](https://www.ncbi.nlm.nih.gov/research/bionlp/psb2025), 2025.
