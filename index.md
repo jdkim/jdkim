@@ -27,7 +27,7 @@ layout: default
 * [International Standards Organization (ISO)](https://www.iso.org) [TC37 SC4](https://www.iso.org/committee/297592.html) (Language resource management)
   * Convener of WG1 (Basic descriptors and mechanisms for language resources)
 * [Association for Computational Linguistics (ACL)](https://www.aclweb.org/)
-  * [Rolling Review](https://aclrollingreview.org/) Action Editor
+  * [Open Review](https://aclrollingreview.org/) Area Chair
   * [Ethics Committee](https://www.aclweb.org/adminwiki/index.php?title=Formation_of_the_ACL_Ethics_Committee)
 * [Journal of Language Resources and Evaluation](https://www.springer.com/journal/10579)
   * Editorial Board
