@@ -22,35 +22,32 @@ layout: default
 -- Elasticsearch: The Definitive Guide
 </div>
 
+<!-- 
+{% markdown events.md %}
+ -->
+
+{% markdown events-recent.md %}
+
 # Memberships
 
 * [International Standards Organization (ISO)](https://www.iso.org) [TC37 SC4](https://www.iso.org/committee/297592.html) (Language resource management)
   * Convener of WG1 (Basic descriptors and mechanisms for language resources)
 * [Association for Computational Linguistics (ACL)](https://www.aclweb.org/)
-  * [Open Review](https://aclrollingreview.org/) Area Chair
-  * [Ethics Committee](https://www.aclweb.org/adminwiki/index.php?title=Formation_of_the_ACL_Ethics_Committee)
+  * Area Chair of [Open Review](https://aclrollingreview.org/)
+  * Member of [Ethics Committee](https://www.aclweb.org/adminwiki/index.php?title=Formation_of_the_ACL_Ethics_Committee)
 * [Journal of Language Resources and Evaluation](https://www.springer.com/journal/10579)
   * Editorial Board
 * [Transactions on Graph Data and Knowledge](https://tgdk.org/)
   * Editorial Board
 * [Journal of Web Semantics](https://www.journals.elsevier.com/journal-of-web-semantics)
   * Editorial Board
-* [F1000 Faculty](https://f1000.com/prime/thefaculty/member/499999771097613933)
-* [NCBO User Profile](https://www.bioontology.org/Jin-Dong_Kim)
 
 <h1>Research Interests</h1>
-<p>Natural Language Processing (NLP), Data Mining, Knowledge Base Construction, Question-Answering, Bioinformatics</p>
+<p>Natural Language Processing (NLP), Data Mining, Knowledge Base Construction, Dialog Interface, Bioinformatics</p>
 
 {% markdown projects.md %}
 
 {% markdown publications.md %}
-
-<!-- 
-{% markdown events.md %}
-<div class="recent">
-{% markdown events-recent.md %}
-</div>
- -->
 
 {% markdown activities.md %}
 <div class="recent">

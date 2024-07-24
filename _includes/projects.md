@@ -6,10 +6,15 @@
 [PubDictionaries](http://pubdictionaries.org)
 
 {% icon fa-angle-right %} Question-Answering :
-[LODQA](http://www.lodqa.org) |
+[LODQA](http://www.lodqa.org)
+
+<!--
+
 [DialoQ](http://dialoq.lodqa.org/) |
 [OKBQA](http://www.okbqa.org)
 
 {% icon fa-angle-right %} Ontology Engineering :
 [OntoFinder](http://ontofinder.dbcls.jp) |
 [OntoCloud](http://bionlp.dbcls.jp/projects/ontoviz)
+
+-->
