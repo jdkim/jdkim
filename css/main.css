@@ -138,13 +138,13 @@ dd {
 }
 
 .recent {
-  color: #aaa;
+  color: #ccc;
 }
 
 .recent a {
-    color: #6AF;
+    color: #acf;
 }
 
 .recent a:visited {
-    color: #6AF;
+    color: #acf;
 }

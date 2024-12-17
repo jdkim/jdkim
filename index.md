@@ -24,9 +24,8 @@ layout: default
 
 <!-- 
 {% markdown events.md %}
- -->
-
 {% markdown events-recent.md %}
+ -->
 
 # Memberships
 
