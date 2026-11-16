@@ -16,18 +16,19 @@
 title: "Jin-Dong Kim, Ph.D."
 email: jdkim@dbcls.rois.ac.jp
 description: "Jin-Dong Kim's homepage"
-baseurl: "/~jdkim" # the subpath of your site, e.g. /blog
-url: "http://dbcls.rois.ac.jp" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/jdkim" # the subpath of your site, e.g. /blog
+url: "https://jdkim.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jindongkim
 github_username: jdkim
 
 # Build settings
 markdown: kramdown
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
+  - CLAUDE.md
 
 kramdown:
   auto_ids:       true

@@ -6,7 +6,7 @@ layout: default
 ---
 
 <div class="picture">
-	<img alt="picture" src="{{site.baseurl}}img/picture.jpg" />
+	<img alt="picture" src="{{ "/img/picture.jpg" | relative_url }}" />
 </div>
 
 <div class="status">
