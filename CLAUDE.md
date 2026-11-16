@@ -14,12 +14,12 @@ bundle exec jekyll build     # writes _site/
 bundle exec jekyll serve     # local preview; restart after editing _config.yml
 ```
 
-- `Gemfile` pins `ruby "3.4.12"` (RVM; the RVM default is 3.4.4, so `rvm use 3.4.12` first or `bundle` refuses to run). Jekyll is 4.4.x, which is required on Ruby 3.4 (4.3 lacks the `csv`/`base64` deps that left Ruby's default gems).
+- `Gemfile` pins `ruby "3.4.12"` (RVM switches to it automatically via `.ruby-version` on `cd`; otherwise `rvm use 3.4.12`). Jekyll is 4.4.x, which is required on Ruby 3.4 (4.3 lacks the `csv`/`base64` deps that left Ruby's default gems).
 - Run Jekyll **from the repo root**. The custom `markdown` tag reads `File.join(Dir.pwd, "_includes", …)`, not Jekyll's source dir.
 
 ## Deploy
 
-Pushing to `main` deploys: `.github/workflows/pages.yml` builds with Bundler (Ruby version from the `Gemfile`) and publishes via GitHub Pages' Actions source. GitHub's built-in Pages build is not used because it would refuse the custom `_plugins/`. Check runs with `gh run list --workflow pages.yml`.
+Pushing to `main` deploys: `.github/workflows/pages.yml` builds with Bundler (Ruby version from `.ruby-version`, which must match the `Gemfile`) and publishes via GitHub Pages' Actions source. GitHub's built-in Pages build is not used because it would refuse the custom `_plugins/`. Check runs with `gh run list --workflow pages.yml`.
 
 `_site/` is still tracked in git from the pre-Pages days, but the deploy ignores it and builds fresh.
 

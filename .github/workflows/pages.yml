@@ -22,7 +22,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: ruby/setup-ruby@v1
         with:
-          bundler-cache: true   # Ruby version comes from the Gemfile
+          bundler-cache: true   # Ruby version comes from .ruby-version
       - id: pages
         uses: actions/configure-pages@v5
       - run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
